@@ -3,6 +3,7 @@
 Replace the fragile multi‑view geometric bootstrap in On‑the‑fly 3DGS with a robust single‑image generative initialization using MoGE‑2, then keep the official incremental pipeline unchanged for the rest of the sequence.
 
 This repo provides portable notebooks (Colab or local) covering end‑to‑end: one‑shot init → incremental training → evaluation vs the original baseline.
+<img width="1525" height="676" alt="image" src="https://github.com/user-attachments/assets/1c7dd79a-d525-4d29-8993-4e41062cf999" />
 
 ---
 
