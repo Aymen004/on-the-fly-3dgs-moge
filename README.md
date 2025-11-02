@@ -188,7 +188,7 @@ Gain            -23.8s     +1.17 dB
 
 ### Step 1 pipeline: from single image to initialized 3DGS
 
-![Step 1 pipeline: from the input image (left) to the initialized 3DGS scene (right) via MoGE.](https://github.com/user-attachments/assets/3ac4624b-f9c8-4f63-bc7d-cbf1ddfe1d61")
+![Step 1 pipeline: from the input image (left) to the initialized 3DGS scene (right) via MoGE.](<img width="1323" height="361" alt="Capture d&#39;écran 2025-11-02 173955" src="https://github.com/user-attachments/assets/7877c5fa-f1cd-46f2-8bc3-6450501e9219" />")
 
 <p align="center"><em>Figure 1. Step 1 pipeline: from the input image (left) to the initialized 3DGS scene (right) via MoGE.</em></p>
 
