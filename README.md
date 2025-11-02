@@ -196,7 +196,7 @@ Gain            -23.8s     +1.17 dB
 
 | **Baseline** | **Our Approach (MoGE)** |
 |:-------------:|:----------------------:|
-| <img src="https://github.com/user-attachments/assets/225f5f7b-d68f-4aca-9829-f37c32001201" width="420"/> <br/><sub><em>375.46 s | PSNR 20.74 dB</em></sub> | <img src="https://github.com/user-attachments/assets/fb36bf0c-e27c-4a44-9560-251ba6cf72dc" width="420"/> <br/><sub><em>351.66 s | PSNR 21.91 dB</em></sub> |
+| <img src="https://github.com/user-attachments/assets/225f5f7b-d68f-4aca-9829-f37c32001201" width="420"/> <br/><sub><em>375.46 s | PSNR 20.74 dB</em></sub> | ![Image1](https://github.com/user-attachments/assets/54aec8c9-d2d3-4b61-9fe2-e59923157ae6) <br/><sub><em>351.66 s | PSNR 21.91 dB</em></sub> |
 
 <p align="center">
   <em>Qualitative and timing comparison on Apartment 1. Our method (right) produces higher-quality renderings while being faster than the original method (left).</em>
