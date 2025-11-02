@@ -190,40 +190,43 @@ Gain            -23.8s     +1.17 dB
 
 <img width="1323" height="361" alt="Capture d&#39;écran 2025-11-02 173955" src="https://github.com/user-attachments/assets/7877c5fa-f1cd-46f2-8bc3-6450501e9219"/>
 
-<p align="center"><em>Figure 1. Step 1 pipeline: from the input image (left) to the initialized 3DGS scene (right) via MoGE.</em></p>
+<p align="center"><em>Step 1 pipeline: from the input image (left) to the initialized 3DGS scene (right) via MoGE.</em></p>
 
 ### Qualitative and global performance comparison (Apartment 1)
 
-| Baseline | Our Approach (MoGE) |
-|---|---|
-| <img width="857" height="640" alt="image" src="https://github.com/user-attachments/assets/225f5f7b-d68f-4aca-9829-f37c32001201" />
- <br/><sub><em>375.46s, PSNR 20.74 dB</em></sub> | <img width="857" height="642" alt="image" src="https://github.com/user-attachments/assets/fb36bf0c-e27c-4a44-9560-251ba6cf72dc" />
- <br/><sub><em>351.66s, PSNR 21.91 dB</em></sub> |
+| **Baseline** | **Our Approach (MoGE)** |
+|:-------------:|:----------------------:|
+| <img src="https://github.com/user-attachments/assets/225f5f7b-d68f-4aca-9829-f37c32001201" width="420"/> <br/><sub><em>375.46 s | PSNR 20.74 dB</em></sub> | <img src="https://github.com/user-attachments/assets/fb36bf0c-e27c-4a44-9560-251ba6cf72dc" width="420"/> <br/><sub><em>351.66 s | PSNR 21.91 dB</em></sub> |
 
-<p align="center"><em>Figure 2. Qualitative and timing comparison on Apartment 1. Our method (right) produces higher‑quality renderings while being faster than the original method (left).</em></p>
+<p align="center">
+  <em>Qualitative and timing comparison on Apartment 1. Our method (right) produces higher-quality renderings while being faster than the original method (left).</em>
+</p>
 
 ---
 
-## Video comparison (baseline vs MoGE)
 
-Side‑by‑side rendered path videos for the two approaches. Export `rendered_path.mp4` from each run (e.g., from `results/<model>/renders/`) and place copies under `images/` as shown below.
+## Video comparison (Baseline vs MoGE)
+
+Side-by-side rendered-path video showing both methods simultaneously.  
+**Left = Baseline | Right = MoGE**
 
 <div align="center">
-   <!-- Replace the URLs below with your GitHub user‑attachments asset URLs for videos -->
-   <video src="https://github.com/user-attachments/assets/REPLACE_WITH_BASELINE_VIDEO_ASSET_ID" controls width="48%"></video>
-   <video src="https://github.com/user-attachments/assets/REPLACE_WITH_MOGE_VIDEO_ASSET_ID" controls width="48%"></video>
-   <br/>
-   <sub><em>Video 1. Baseline (left) vs MoGE (right) on Apartment 1.</em></sub>
-   <br/>
-   <sub>
-   If inline playback is not supported by your viewer, use the direct links:
-   <a href="https://github.com/user-attachments/assets/REPLACE_WITH_BASELINE_VIDEO_ASSET_ID">Baseline video</a> ·
-   <a href="https://github.com/user-attachments/assets/REPLACE_WITH_MOGE_VIDEO_ASSET_ID">MoGE video</a>
-   </sub>
-   <br/>
-   <sub>Alternatively, provide GIFs as `baseline_render.gif` and `moge_render.gif` for broader compatibility.</sub>
-  
+  <video src="https://github.com/user-attachments/assets/886cacf0-79ee-4486-939d-757ff16d86d2"
+         controls
+         width="80%"
+         muted
+         loop>
+  </video>
+  <br/>
+  <sub><em>Video 1 – Baseline (left) vs MoGE (right) on Apartment 1.</em></sub>
+  <br/>
+  <sub>
+    If inline playback is not supported, use the direct link:  
+    <a href="https://github.com/user-attachments/assets/886cacf0-79ee-4486-939d-757ff16d86d2">comparison_apartment1.mp4</a>
+  </sub>
 </div>
+
+> **Note:** The slight noise visible at the end of the scene arises from the intrinsic characteristics of the captured environment, not from the rendering pipeline.
 
 ---
 
