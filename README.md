@@ -16,8 +16,8 @@ This repo provides portable notebooks (Colab or local) covering end‑to‑end: 
 
 | Notebook | Purpose |
 |---|---|
-| `pipeline/3dgsMoge_ETAPE1.ipynb` | Stage 1 only: one‑shot init. Run MoGE‑2 on a single image to get a dense colored point cloud, then convert it to a 3DGS `.ply` (GraphDeco/SuperSplat layout). |
-| `pipeline/3dgsMoge_ETAPE2.ipynb` | Stage 2 only: incremental reconstruction. Inject the init 3DGS into `on-the-fly-nvs`, then run pose tracking, LoG sampling, joint optimization, and rendering. |
+| `pipeline/3dgsMoge_ETAPE1.ipynb` | Stage 1 : one‑shot init. Run MoGE‑2 on a single image to get a dense colored point cloud, then convert it to a 3DGS `.ply` (GraphDeco/SuperSplat layout). |
+| `pipeline/3dgsMoge_ETAPE2.ipynb` | Stage 2 : incremental reconstruction. Inject the init 3DGS into `on-the-fly-nvs`, then run pose tracking, LoG sampling, joint optimization, and rendering. |
 | `comparison/PSNR_compare.ipynb` | Evaluation (MoGE init). Compute PSNR/SSIM/LPIPS on a held‑out split (1 every 30, `--test_hold 30`) for the model trained from the MoGE initialization. Exports CSV + plots (boxplots, Δ‑PSNR histogram). |
 | `comparison/PSNR_compareBasic.ipynb` | Evaluation (baseline). Same protocol, same split, same metrics — trained with the original bootstrap — enabling apples‑to‑apples comparison. |
 
